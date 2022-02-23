@@ -2,6 +2,5 @@ hero resolusi :
 - bisa jadi jago database
 - bisa bikin web mvc sendiri
 - bisa membuat apapun yang diminta
-- kerja di bandung biar deket tasya
 - ingin menjadi expert dalam database
 - pengen ngevlog
