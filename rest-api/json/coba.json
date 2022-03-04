@@ -1,0 +1,26 @@
+[
+{
+	"nama" : "Hero Ramadhan",
+	"umur" : 24,
+	"npm" : "3123124",
+	"lulus" : true,
+	"hobi" : ["coding",
+	 "gaming"],
+	"pembimbing" : {
+		"pembimbing1" : "agung hermasyah",
+		"pembimbing2" : "doddy hermasyah"
+	}
+},
+{
+	"nama" : "Hero Ramadhan",
+	"umur" : 24,
+	"npm" : "3123124",
+	"lulus" : true,
+	"hobi" : ["coding",
+	 "gaming"],
+	"pembimbing" : {
+		"pembimbing1" : "agung hermasyah",
+		"pembimbing2" : "doddy hermasyah"
+	}
+}
+]
