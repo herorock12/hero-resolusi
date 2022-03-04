@@ -3,4 +3,7 @@ hero resolusi :
 - bisa bikin web mvc sendiri
 - bisa membuat apapun yang diminta
 - ingin menjadi expert dalam database
-- pengen ngevlog
+
+
+kegiatan :
+-abis belajar api
