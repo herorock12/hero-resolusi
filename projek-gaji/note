@@ -1,0 +1,21 @@
+UPDATE GAJI DATA KARYAWAN AFTER UPDATE
+BEGIN
+UPDATE gaji set total_gaji = (SELECT(new.fee_kehadiran*(new.jumlah_kehadiran)+new.gaji_pokok+(new.eskul)+(new.bonus)+new.tunjangan_jabatan)
+FROM data_karyawan WHERE NUPTK = old.NUPTK), 
+nama = (SELECT (new.nama) FROM data_karyawan WHERE NUPTK = old.NUPTK),
+jabatan = (SELECT (new.jabatan) from data_karyawan WHERE NUPTK = old.NUPTK),
+bulan = (SELECT (new.bulan) from data_karyawan WHERE NUPTK = old.NUPTK),
+foto =(SELECT (new.foto) from data_karyawan WHERE NUPTK = old.NUPTK)
+WHERE NUPTK = old.NUPTK;
+end
+
+
+
+INSERT DATA DATA_KARYAWAN AFTER INSERT
+BEGIN
+INSERT INTO gaji (NUPTK, nama, jabatan, bulan, foto, total_gaji)
+VALUES (new.NUPTK, new.nama, new.jabatan, new.bulan, new.foto,  (new.fee_kehadiran*new.jumlah_kehadiran+new.gaji_pokok+new.eskul+new.bonus+new.tunjangan_jabatan));
+end
+
+
+DELETE DATA GAJI AFTER DELETE
