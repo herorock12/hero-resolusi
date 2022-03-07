@@ -1,2 +1,2 @@
 # hero-resolusi
-repositori rencana kedepan
+do the best
