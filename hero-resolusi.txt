@@ -1,9 +1,0 @@
-hero resolusi : 
-- bisa jadi jago database
-- bisa bikin web mvc sendiri
-- bisa membuat apapun yang diminta
-- ingin menjadi expert dalam database
-
-
-kegiatan :
--abis belajar api
